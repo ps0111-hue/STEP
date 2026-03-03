@@ -8,7 +8,7 @@ public class UseCase2PalindromeCheckerApp {
         // Reverse the string
         String reversed = "";
         for (int i = word.length() - 1; i >= 0; i--) {
-            reversed = reversed + word.charAt(i);
+            reversed += word.charAt(i);
         }
 
         // Check if palindrome using if-else
